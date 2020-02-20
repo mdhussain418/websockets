@@ -52,4 +52,5 @@ if __name__ == "__main__":
 
 
     # disable ssl cert verification
+    # this helps when working with self signed certificates.
     # ws.run_forever(sslopt={"cert_reqs": ssl.CERT_NONE, "check_hostname": False})
